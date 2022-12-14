@@ -19,7 +19,7 @@ dataframe = pd.read_csv(
     ],
 )
 
-# We have a limited budget, therefore we would like to exclude
+
 # listings with a price above 100 pounds per night
 dataframe = dataframe[dataframe["Price"] <= 100]
 
